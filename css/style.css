@@ -14,7 +14,7 @@ body{
   background-image: url(../images/bg-curvy-desktop.svg);
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 230vh;
+  /* height: 230vh; */
 }
 
 /* navbar */
@@ -50,14 +50,13 @@ section .intro{
 }
 section .image{
   width: 90%;
-  padding: 30px;
   text-align: center;
 }
 section .image img{
   width: 100%;
 }
 section .intro-text{
-  width: 60%;
+  width: 80%;
   text-align: center;
   color: white ;
 }
@@ -65,7 +64,7 @@ section .intro-text h1{
   font-size: 40px;
 }
 section .intro-text p{
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -128,6 +127,7 @@ main .container-fluid .row .col-lg-6 .content-link a{
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 .testimonies .image{
   top: 35px;
@@ -182,7 +182,7 @@ main .container-fluid .row .col-lg-6 .content-link a{
 }
 .email .col-lg-8{
 background-color: hsl(218, 28%, 13%);
-position: absolute;
+position: relative;
 width: fit-content;
 color: white;
 top: -50px;
@@ -217,7 +217,6 @@ padding: 30px 30px;
 footer{
   background-color: hsl(216, 53%, 9%);
   color: white;
-  padding-top: 18rem;
   padding-left: 80px;
   min-height: 70vh;
   padding-bottom: 30px; 
@@ -229,15 +228,18 @@ footer .row{
   justify-content: center;
   width: 100%;
   padding-left: 40px;
+
+  
 }
 footer .row .col-lg-3 .location{
   padding-top: 20px;
 }
 .location , .contact ,.mail{
   display: flex;
+  justify-content: left;
 }
 .icon{
-  width: 25%;
+  /* width: 25%; */
 }
 footer .row .col-lg-2{
   padding-left: 30px;
@@ -278,6 +280,6 @@ footer .row .col-lg-2 a{
     width: 100%;
   }
   .icon{
-    width: 10%;
+    /* width: 10%; */
   }
 }
